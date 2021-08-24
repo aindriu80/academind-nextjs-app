@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "devNext": "BROWSER=/opt/firefox/firefox HTTPS=true SSL_CRT_FILE=/etc/mkcert/localhost.pem SSL_KEY_FILE=/etc/mkcert/localhost-key.pem next dev"
+    "dev": "BROWSER=/opt/firefox/firefox HTTPS=true SSL_CRT_FILE=/etc/mkcert/localhost.pem SSL_KEY_FILE=/etc/mkcert/localhost-key.pem next dev"
   },
   "dependencies": {
     "next": "11.1.0",

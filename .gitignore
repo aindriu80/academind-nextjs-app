@@ -36,3 +36,5 @@ yarn-error.log*
 # other
 
 .eslintrc.json
+localhost-key.pem
+localhost.pem
