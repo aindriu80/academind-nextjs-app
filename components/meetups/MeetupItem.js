@@ -8,6 +8,7 @@ function MeetupItem(props) {
   function showDetailHander() {
     router.push('/' + props.id)
   }
+
   return (
     <li className={classes.item}>
       <Card>
